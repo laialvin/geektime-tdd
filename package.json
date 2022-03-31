@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/laialvin/geektime-tdd/issues"
   },
-  "homepage": "https://github.com/laialvin/geektime-tdd#readme"
+  "homepage": "https://github.com/laialvin/geektime-tdd#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^16.2.3",
+    "@commitlint/config-conventional": "^16.2.1",
+    "husky": "^7.0.4"
+  }
 }
