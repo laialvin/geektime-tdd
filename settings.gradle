@@ -1,2 +1,3 @@
 rootProject.name = 'geektime-tdd'
+include '00-introduction'
 
