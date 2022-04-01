@@ -18,7 +18,7 @@ public class Main {
         entityManager.getTransaction().commit();
         System.out.println(alvin.getId());
 
-        Optional<Student> loaded = studentRepository.getById(alvin.getId());
+        Optional<Student> loaded = studentRepository.findById(alvin.getId());
         System.out.println(loaded);
     }
 }
